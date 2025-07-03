@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Segmentation</title>
+</head>
+<body>
+    <h1>Upload an Image for Segmentation</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button id="predictButton">Predict</button>
+    <div class="results">
+        <div class="panel">
+            <h3>Original Image</h3>
+            <img id="originalImage" src="" alt="Your Uploaded Image">
+        </div>
+        <div class="panel">
+            <h3>Predicted Mask</h3>
+            <img id="predictedMask" src="" alt="Segmentation Mask">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
